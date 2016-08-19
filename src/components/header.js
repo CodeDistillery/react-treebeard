@@ -10,7 +10,6 @@ class NodeHeader extends React.Component {
         const {decorators} = this.props;
         const terminal = !this.props.node.children;
         const active = this.props.node.active;
-        const container = [style.link, active ? style.activeLink : null];
 
         return (
             <decorators.Container
